@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name catear-pcb)(type KiCad)(uri /home/tsys/work/catear-pcb)(options "")(descr ""))
+  (lib (name catear-pcb)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
 )
