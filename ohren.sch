@@ -557,23 +557,6 @@ Wire Wire Line
 	7850 3250 7850 3350
 Wire Wire Line
 	7850 6150 7850 6200
-Connection ~ 6850 3350
-Wire Wire Line
-	7200 3350 6850 3350
-Connection ~ 6850 3050
-Wire Wire Line
-	7200 3050 6850 3050
-$Comp
-L Device:CP C4
-U 1 1 5CA31CE6
-P 7200 3200
-F 0 "C4" H 7318 3246 50  0000 L CNN
-F 1 "CP" H 7318 3155 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 7238 3050 50  0001 C CNN
-F 3 "~" H 7200 3200 50  0001 C CNN
-	1    7200 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 3350 6850 3450
 $Comp
@@ -1155,7 +1138,7 @@ F 3 "" H 5150 1400 50  0001 C CNN
 	1    5150 1400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2000 2300
+NoConn ~ 2000 2700
 Wire Wire Line
 	5150 1300 5150 1400
 $Comp
@@ -1218,55 +1201,17 @@ F 3 "" H 5150 900 50  0001 C CNN
 	1    5150 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	400  2500 400  3200
-$Comp
-L power:GND #PWR0119
-U 1 1 5CC0E0FA
-P 400 3200
-F 0 "#PWR0119" H 400 2950 50  0001 C CNN
-F 1 "GND" H 405 3027 50  0000 C CNN
-F 2 "" H 400 3200 50  0001 C CNN
-F 3 "" H 400 3200 50  0001 C CNN
-	1    400  3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR0120
 U 1 1 5CC1AB18
-P 0 2250
-F 0 "#PWR0120" H 0   2100 50  0001 C CNN
-F 1 "VCC" H 17  2423 50  0000 C CNN
-F 2 "" H 0   2250 50  0001 C CNN
-F 3 "" H 0   2250 50  0001 C CNN
-	1    0    2250
+P -850 2250
+F 0 "#PWR0120" H -850 2100 50  0001 C CNN
+F 1 "VCC" H -833 2423 50  0000 C CNN
+F 2 "" H -850 2250 50  0001 C CNN
+F 3 "" H -850 2250 50  0001 C CNN
+	1    -850 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	0    2250 0    2500
-$Comp
-L power:GND #PWR0121
-U 1 1 5CC4100A
-P 2550 2600
-F 0 "#PWR0121" H 2550 2350 50  0001 C CNN
-F 1 "GND" H 2555 2427 50  0000 C CNN
-F 2 "" H 2550 2600 50  0001 C CNN
-F 3 "" H 2550 2600 50  0001 C CNN
-	1    2550 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2600 2550 2500
-Wire Wire Line
-	2550 2500 1500 2500
-Entry Wire Line
-	2250 2750 2350 2650
-Entry Wire Line
-	2250 2850 2350 2750
-Entry Wire Line
-	2250 2950 2350 2850
-Entry Wire Line
-	2250 3050 2350 2950
 Entry Wire Line
 	2250 3150 2350 3050
 Entry Wire Line
@@ -1281,65 +1226,33 @@ Entry Wire Line
 	2250 3650 2350 3550
 Entry Wire Line
 	2250 3750 2350 3650
-Text Label 1800 2850 0    50   ~ 0
+Entry Wire Line
+	2250 3850 2350 3750
+Entry Wire Line
+	2250 3950 2350 3850
+Entry Wire Line
+	2250 4050 2350 3950
+Entry Wire Line
+	2250 4150 2350 4050
+Text Label 1800 4150 0    50   ~ 0
 GSSOUT
-Text Label 1800 2750 0    50   ~ 0
+Text Label 1800 4050 0    50   ~ 0
 DCSOUT
-Text Label 1800 2950 0    50   ~ 0
+Text Label 1800 3450 0    50   ~ 0
 GSSIN
-Text Label 1800 3050 0    50   ~ 0
+Text Label 1800 3350 0    50   ~ 0
 DCSIN
-Text Label 1800 3150 0    50   ~ 0
+Text Label 1800 3550 0    50   ~ 0
 GSSCK
 Text Label 1800 3250 0    50   ~ 0
-GSLAT
-Text Label 1800 3350 0    50   ~ 0
 DCSCK
-Text Label 1800 3450 0    50   ~ 0
+Text Label 1800 3150 0    50   ~ 0
 XBLNK
-Text Label 1800 3550 0    50   ~ 0
-GSCKR
-Wire Wire Line
-	0    2500 200  2500
-$Comp
-L Connector:Conn_01x14_Male J1
-U 1 1 5CDF8D04
-P 900 2300
-F 0 "J1" V 735 2228 50  0000 C CNN
-F 1 "Conn_01x14_Male" V 826 2228 50  0000 C CNN
-F 2 "catear-pcb:solder_conn14" H 900 2300 50  0001 C CNN
-F 3 "~" H 900 2300 50  0001 C CNN
-	1    900  2300
-	0    1    1    0   
-$EndComp
-Connection ~ 200  2500
-Wire Wire Line
-	200  2500 300  2500
-Wire Wire Line
-	-200 2600 -200 2250
-$Comp
-L power:VDD #PWR0122
-U 1 1 5CE5FD09
-P -200 2250
-F 0 "#PWR0122" H -200 2100 50  0001 C CNN
-F 1 "VDD" H -183 2423 50  0000 C CNN
-F 2 "" H -200 2250 50  0001 C CNN
-F 3 "" H -200 2250 50  0001 C CNN
-	1    -200 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 3650 600  3650
-Wire Wire Line
-	600  3650 600  3550
-Wire Wire Line
-	2250 3750 600  3750
-Wire Wire Line
-	600  3750 600  3650
-Connection ~ 600  3650
-Text Label 1800 3650 0    50   ~ 0
-GSCKG
 Text Label 1800 3750 0    50   ~ 0
+GSCKR
+Text Label 1800 3850 0    50   ~ 0
+GSCKG
+Text Label 1800 3950 0    50   ~ 0
 GSCKB
 Entry Wire Line
 	6850 4650 6950 4550
@@ -1365,67 +1278,24 @@ Entry Wire Line
 	2350 4250 2450 4150
 Entry Wire Line
 	2350 4350 2450 4250
-Wire Wire Line
-	500  3050 2250 3050
-Wire Wire Line
-	500  2500 500  3050
-Wire Wire Line
-	600  2950 600  2500
-Wire Wire Line
-	600  2950 2250 2950
-Wire Wire Line
-	600  3550 1000 3550
-Wire Wire Line
-	700  2850 700  2500
-Wire Wire Line
-	700  2850 2250 2850
-Wire Wire Line
-	800  2750 800  2500
-Wire Wire Line
-	800  2750 2250 2750
-Wire Wire Line
-	-200 2600 900  2600
-Wire Wire Line
-	900  2600 900  2500
-Wire Wire Line
-	1000 2500 1000 3550
-Connection ~ 1000 3550
-Wire Wire Line
-	1000 3550 2250 3550
-Wire Wire Line
-	2250 3250 1100 3250
-Wire Wire Line
-	1100 3250 1100 2500
-Wire Wire Line
-	2250 3150 1200 3150
-Wire Wire Line
-	1200 3150 1200 2500
-Wire Wire Line
-	2250 3350 1300 3350
-Wire Wire Line
-	1300 3350 1300 2500
-Wire Wire Line
-	2250 3450 1400 3450
-Wire Wire Line
-	1400 3450 1400 2500
 $Comp
-L Device:CP C9
+L Device:C C9
 U 1 1 5D009474
 P 4550 1150
 F 0 "C9" H 4668 1196 50  0000 L CNN
-F 1 "CP" H 4668 1105 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 4588 1000 50  0001 C CNN
+F 1 "C" H 4668 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4588 1000 50  0001 C CNN
 F 3 "~" H 4550 1150 50  0001 C CNN
 	1    4550 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C10
+L Device:C C10
 U 1 1 5D01A6A4
 P 6050 1150
 F 0 "C10" H 6168 1196 50  0000 L CNN
-F 1 "CP" H 6168 1105 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 6088 1000 50  0001 C CNN
+F 1 "C" H 6168 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6088 1000 50  0001 C CNN
 F 3 "~" H 6050 1150 50  0001 C CNN
 	1    6050 1150
 	1    0    0    -1  
@@ -1660,6 +1530,175 @@ Text Label 2800 1750 1    50   ~ 0
 U1_G2
 Wire Wire Line
 	2800 1500 2800 1750
+Text Label 3100 1750 1    50   ~ 0
+U2_G1
+Wire Wire Line
+	3100 1500 3100 1750
+Text Label 2500 1750 1    50   ~ 0
+U2_R1
+Wire Wire Line
+	2500 1500 2500 1750
+$Comp
+L Connector:Conn_01x18_Male J1
+U 1 1 5CDF8D04
+P 550 2200
+F 0 "J1" V 385 2128 50  0000 C CNN
+F 1 "Conn_01x18_Male" V 476 2128 50  0000 C CNN
+F 2 "catear-pcb:solder_conn18" H 550 2200 50  0001 C CNN
+F 3 "~" H 550 2200 50  0001 C CNN
+	1    550  2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-350 2400 -350 2550
+Wire Wire Line
+	-350 2550 -850 2550
+Wire Wire Line
+	-850 2550 -850 2250
+Wire Wire Line
+	-350 2550 -250 2550
+Wire Wire Line
+	-250 2550 -250 2400
+Connection ~ -350 2550
+$Comp
+L power:VCC #PWR0119
+U 1 1 5CD6CF6B
+P 1800 2250
+F 0 "#PWR0119" H 1800 2100 50  0001 C CNN
+F 1 "VCC" H 1817 2423 50  0000 C CNN
+F 2 "" H 1800 2250 50  0001 C CNN
+F 3 "" H 1800 2250 50  0001 C CNN
+	1    1800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2550 1800 2250
+Wire Wire Line
+	1800 2550 1350 2550
+Wire Wire Line
+	1250 2550 1250 2400
+Wire Wire Line
+	1350 2400 1350 2550
+Connection ~ 1350 2550
+Wire Wire Line
+	1350 2550 1250 2550
+Wire Wire Line
+	-150 2400 -150 2650
+Wire Wire Line
+	-150 2650 -850 2650
+Wire Wire Line
+	-50  2400 -50  2650
+Wire Wire Line
+	-50  2650 -150 2650
+Connection ~ -150 2650
+$Comp
+L power:GND #PWR0121
+U 1 1 5CDDA28F
+P -850 2750
+F 0 "#PWR0121" H -850 2500 50  0001 C CNN
+F 1 "GND" H -845 2577 50  0000 C CNN
+F 2 "" H -850 2750 50  0001 C CNN
+F 3 "" H -850 2750 50  0001 C CNN
+	1    -850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-850 2750 -850 2650
+$Comp
+L power:GND #PWR0124
+U 1 1 5CDEC54B
+P 1800 2850
+F 0 "#PWR0124" H 1800 2600 50  0001 C CNN
+F 1 "GND" H 1805 2677 50  0000 C CNN
+F 2 "" H 1800 2850 50  0001 C CNN
+F 3 "" H 1800 2850 50  0001 C CNN
+	1    1800 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2850 1800 2750
+Wire Wire Line
+	1800 2750 1150 2750
+Connection ~ 1150 2750
+Wire Wire Line
+	1150 2750 1050 2750
+$Comp
+L power:VDD #PWR0122
+U 1 1 5CE3A90D
+P 2000 2250
+F 0 "#PWR0122" H 2000 2100 50  0001 C CNN
+F 1 "VDD" H 2017 2423 50  0000 C CNN
+F 2 "" H 2000 2250 50  0001 C CNN
+F 3 "" H 2000 2250 50  0001 C CNN
+	1    2000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2400 1150 2750
+Wire Wire Line
+	1050 2400 1050 2750
+Wire Wire Line
+	2000 2650 950  2650
+Wire Wire Line
+	950  2650 950  2400
+Wire Wire Line
+	2000 2250 2000 2650
+Wire Wire Line
+	2250 3150 850  3150
+Wire Wire Line
+	850  3150 850  2400
+Wire Wire Line
+	2250 3250 750  3250
+Wire Wire Line
+	750  3250 750  2400
+Text Label 1800 3650 0    50   ~ 0
+GSLAT
+Wire Wire Line
+	2250 3350 650  3350
+Wire Wire Line
+	650  3350 650  2400
+Wire Wire Line
+	2250 3450 550  3450
+Wire Wire Line
+	550  3450 550  2400
+Wire Wire Line
+	2250 3550 450  3550
+Wire Wire Line
+	450  3550 450  2400
+Wire Wire Line
+	2250 3650 350  3650
+Wire Wire Line
+	350  3650 350  2400
+Wire Wire Line
+	2250 3750 250  3750
+Wire Wire Line
+	250  3750 250  2400
+Wire Wire Line
+	2250 3850 250  3850
+Wire Wire Line
+	250  3850 250  3750
+Connection ~ 250  3750
+Wire Wire Line
+	2250 3950 250  3950
+Wire Wire Line
+	250  3950 250  3850
+Connection ~ 250  3850
+Wire Wire Line
+	2250 4050 150  4050
+Wire Wire Line
+	150  4050 150  2400
+Wire Wire Line
+	2250 4150 50   4150
+Wire Wire Line
+	50   4150 50   2400
+Text Label 1900 1750 1    50   ~ 0
+U2_B4
+Wire Wire Line
+	1900 1500 1900 1750
+Text Label 2200 1750 1    50   ~ 0
+U2_R4
+Wire Wire Line
+	2200 1500 2200 1750
 Wire Bus Line
 	5400 2750 5400 4550
 Wire Bus Line
@@ -1679,5 +1718,5 @@ Wire Bus Line
 Wire Bus Line
 	8800 4950 8800 6500
 Wire Bus Line
-	2350 2650 2350 6850
+	2350 3050 2350 6850
 $EndSCHEMATC
