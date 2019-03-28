@@ -1699,6 +1699,21 @@ Text Label 2200 1750 1    50   ~ 0
 U2_R4
 Wire Wire Line
 	2200 1500 2200 1750
+$Comp
+L Device:C C2
+U 1 1 5D1B5671
+P 4250 1150
+F 0 "C2" H 4368 1196 50  0000 L CNN
+F 1 "C" H 4368 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4288 1000 50  0001 C CNN
+F 3 "~" H 4250 1150 50  0001 C CNN
+	1    4250 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1000 4250 1000
+Wire Wire Line
+	4550 1300 4250 1300
 Wire Bus Line
 	5400 2750 5400 4550
 Wire Bus Line
@@ -1719,4 +1734,6 @@ Wire Bus Line
 	8800 4950 8800 6500
 Wire Bus Line
 	2350 3050 2350 6850
+Connection ~ 4550 1000
+Connection ~ 4550 1300
 $EndSCHEMATC
