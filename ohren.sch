@@ -1620,6 +1620,20 @@ Wire Wire Line
 	5150 7050 4900 7050
 Wire Wire Line
 	6500 6900 6500 7950
+$Comp
+L Device:LED D19
+U 1 1 5CC5BCBE
+P 10350 5850
+F 0 "D19" V 10389 5733 50  0000 R CNN
+F 1 "LED" V 10298 5733 50  0000 R CNN
+F 2 "catear-pcb:smd_led_universal" H 10350 5850 50  0001 C CNN
+F 3 "~" H 10350 5850 50  0001 C CNN
+	1    10350 5850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10350 5700
+Wire Wire Line
+	10350 5700 11850 5700
 Wire Bus Line
 	11150 7250 11150 9050
 Wire Bus Line
@@ -1631,17 +1645,14 @@ Wire Bus Line
 Wire Bus Line
 	8100 7550 8100 9950
 $Comp
-L Device:LED D?
-U 1 1 5CC5BCBE
-P 10350 5850
-F 0 "D?" V 10389 5733 50  0000 R CNN
-F 1 "LED" V 10298 5733 50  0000 R CNN
-F 2 "catear-pcb:smd_led_universal" H 10350 5850 50  0001 C CNN
-F 3 "~" H 10350 5850 50  0001 C CNN
-	1    10350 5850
-	0    -1   -1   0   
+L empty:Placeholder E?
+U 1 1 5CC8597E
+P 8500 6800
+F 0 "E?" H 8628 6846 50  0000 L CNN
+F 1 "Placeholder" H 8628 6755 50  0000 L CNN
+F 2 "catear-pcb:benbe" H 8500 6800 50  0001 C CNN
+F 3 "" H 8500 6800 50  0001 C CNN
+	1    8500 6800
+	1    0    0    -1  
 $EndComp
-Connection ~ 10350 5700
-Wire Wire Line
-	10350 5700 11850 5700
 $EndSCHEMATC
