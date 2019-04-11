@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ohren-rescue)(type Legacy)(uri ${KIPRJMOD}/ohren-rescue.lib)(options "")(descr ""))
   (lib (name sk6812mini-1515)(type Legacy)(uri ${KIPRJMOD}/sk6812mini-1515.lib)(options "")(descr ""))
+  (lib (name conn_01x19_holder)(type Legacy)(uri ${KIPRJMOD}/conn_01x19_holder.lib)(options "")(descr ""))
 )
