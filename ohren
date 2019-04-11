@@ -1,0 +1,9 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 C3 ,2,"C","Capacitor_SMD:C_0805_2012Metric","~"
+C6 C7 C5 C8 C2 ,5,"C","Capacitor_SMD:C_1210_3225Metric","~"
+C9 C10 ,2,"C","Capacitor_SMD:C_1206_3216Metric","~"
+D19 D20 D21 D22 D23 D24 D25 D26 ,8,"LED","catear-pcb:smd_led_universal","~"
+D6 D7 D4 D5 D8 D9 D10 D11 D14 D17 D15 D12 ,12,"LED_ARGB","LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW","~"
+J1 ,1,"Conn_01x18_Male","catear-pcb:solder_conn18","~"
+R1 R2 ,2,"2k4","Resistor_SMD:R_0402_1005Metric","~"
+U1 U2 ,2,"TLC5951RHA","Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias","http://www.ti.com/lit/ds/symlink/tlc5951.pdf"

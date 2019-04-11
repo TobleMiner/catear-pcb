@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tsys/work/pcb/ohren/ohren.sch</source>
+    <date>Mo 08 Apr 2019 18:57:43 CEST</date>
+    <tool>Eeschema 5.1.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ohren.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9A91B3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC5951RHA</value>
+      <footprint>Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc5951.pdf</datasheet>
+      <libsource lib="ohren-rescue" part="TLC5951RHA-Driver_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C994A8A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9EA530</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9EA53F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA0D84C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA0D85B</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA14C02</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA14C11</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31CCE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31CF3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLC5951RHA</value>
+      <footprint>Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc5951.pdf</datasheet>
+      <libsource lib="ohren-rescue" part="TLC5951RHA-Driver_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31D00</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31D33</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31D42</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31DD4</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9DBD6E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2D038</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA385A6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA43B66</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D009474</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D01A6A4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k4</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA202B7</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k4</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA33109</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA8BC96</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA8E2FE</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAA0BE5</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAB33EC</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC5B7C</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAD815C</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAEA8CA</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>catear-pcb:smd_led_universal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB221D6</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31D51</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED_ARGB</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA31D9B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x18_Male</value>
+      <footprint>catear-pcb:solder_conn18</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Male" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF8D04</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1B5671</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x18_Male">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ARGB">
+      <description>RGB LED, anode/red/green/blue</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ARGB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="RK" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="BK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ohren-rescue" part="TLC5951RHA-Driver_LED">
+      <footprints>
+        <fp>Texas*S*PVQFN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5951RHA-Driver_LED</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTG3" type="openCol"/>
+        <pin num="2" name="OUTR3" type="openCol"/>
+        <pin num="3" name="OUTB3" type="openCol"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GSSOUT" type="output"/>
+        <pin num="6" name="DCSOUT" type="output"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="OUTB4" type="openCol"/>
+        <pin num="9" name="OUTR4" type="openCol"/>
+        <pin num="10" name="OUTG4" type="openCol"/>
+        <pin num="11" name="OUTB5" type="openCol"/>
+        <pin num="12" name="OUTR5" type="openCol"/>
+        <pin num="13" name="OUTG5" type="openCol"/>
+        <pin num="14" name="OUTB6" type="openCol"/>
+        <pin num="15" name="OUTR6" type="openCol"/>
+        <pin num="16" name="OUTG6" type="openCol"/>
+        <pin num="17" name="OUTB7" type="openCol"/>
+        <pin num="18" name="OUTR7" type="openCol"/>
+        <pin num="19" name="OUTG7" type="openCol"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="IREF" type="passive"/>
+        <pin num="22" name="VCC" type="power_in"/>
+        <pin num="23" name="XBLNK" type="input"/>
+        <pin num="24" name="DCSCK" type="input"/>
+        <pin num="25" name="DCSIN" type="input"/>
+        <pin num="26" name="GSSIN" type="input"/>
+        <pin num="27" name="GSSCK" type="input"/>
+        <pin num="28" name="GSLAT" type="input"/>
+        <pin num="29" name="GSCKG" type="input"/>
+        <pin num="30" name="GSCKR" type="input"/>
+        <pin num="31" name="GSCKB" type="input"/>
+        <pin num="32" name="OUTG0" type="openCol"/>
+        <pin num="33" name="OUTR0" type="openCol"/>
+        <pin num="34" name="OUTB0" type="openCol"/>
+        <pin num="35" name="OUTG1" type="openCol"/>
+        <pin num="36" name="OUTR1" type="openCol"/>
+        <pin num="37" name="OUTB1" type="openCol"/>
+        <pin num="38" name="OUTG2" type="openCol"/>
+        <pin num="39" name="OUTR2" type="openCol"/>
+        <pin num="40" name="OUTB2" type="openCol"/>
+        <pin num="41" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="ohren-rescue">
+      <uri>/home/tsys/work/pcb/ohren/ohren-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="/GSSCHAIN">
+      <node ref="U2" pin="26"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="/XBLNK">
+      <node ref="U2" pin="23"/>
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="4" name="/GSCKB">
+      <node ref="U1" pin="31"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U2" pin="31"/>
+      <node ref="U2" pin="30"/>
+      <node ref="U2" pin="29"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="5" name="/DCSCHAIN">
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="6" name="/DCSIN">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="7" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="21"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="/DCSOUT">
+      <node ref="U2" pin="6"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="10" name="/GSSIN">
+      <node ref="J1" pin="9"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="11" name="/GSSCK">
+      <node ref="U2" pin="27"/>
+      <node ref="J1" pin="10"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="12" name="/DCSCK">
+      <node ref="U2" pin="24"/>
+      <node ref="U1" pin="24"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="13" name="/U2_B5">
+      <node ref="U2" pin="11"/>
+      <node ref="D14" pin="4"/>
+    </net>
+    <net code="14" name="/U2_R4">
+      <node ref="U2" pin="9"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="15" name="/U2_G4">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="16" name="/U2_B4">
+      <node ref="U2" pin="8"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="17" name="/U2_R5">
+      <node ref="U2" pin="12"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="18" name="/U2_G5">
+      <node ref="D14" pin="3"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="19" name="/U2_R6">
+      <node ref="U2" pin="15"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="20" name="/U2_G6">
+      <node ref="D11" pin="3"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="21" name="/U2_B6">
+      <node ref="U2" pin="14"/>
+      <node ref="D11" pin="4"/>
+    </net>
+    <net code="22" name="/U2_R7">
+      <node ref="U2" pin="18"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="23" name="/U2_G7">
+      <node ref="D10" pin="3"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="24" name="/U2_B7">
+      <node ref="U2" pin="17"/>
+      <node ref="D10" pin="4"/>
+    </net>
+    <net code="25" name="/GSLAT">
+      <node ref="U1" pin="28"/>
+      <node ref="J1" pin="11"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="26" name="/U2_R0">
+      <node ref="D17" pin="2"/>
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="27" name="VDD">
+      <node ref="U1" pin="22"/>
+      <node ref="U2" pin="22"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="28" name="VCC">
+      <node ref="D11" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D24" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J1" pin="17"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D17" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D21" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D15" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="U2" pin="41"/>
+      <node ref="U1" pin="41"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="15"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="16"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="30" name="/GSSOUT">
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="31" name="/U1_G2">
+      <node ref="D22" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="32" name="/U2_G1">
+      <node ref="D23" pin="1"/>
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="33" name="/U2_R1">
+      <node ref="D21" pin="1"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="34" name="/U1_R3">
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="35" name="/U1_G3">
+      <node ref="D4" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="36" name="/U1_B3">
+      <node ref="D4" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="37" name="/U1_G4">
+      <node ref="D25" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="38" name="/U1_R4">
+      <node ref="D26" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="39" name="/U1_R2">
+      <node ref="U1" pin="39"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="40" name="/U1_B1">
+      <node ref="D7" pin="4"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="41" name="/U1_B0">
+      <node ref="U1" pin="34"/>
+      <node ref="D6" pin="4"/>
+    </net>
+    <net code="42" name="/U1_R1">
+      <node ref="U1" pin="36"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="43" name="/U1_G1">
+      <node ref="D7" pin="3"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="44" name="/U1_R0">
+      <node ref="U1" pin="33"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="45" name="/U1_B2">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="46" name="/U1_B4">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="47" name="/U1_B7">
+      <node ref="D9" pin="4"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="48" name="/U1_G7">
+      <node ref="U1" pin="19"/>
+      <node ref="D9" pin="3"/>
+    </net>
+    <net code="49" name="/U1_G5">
+      <node ref="U1" pin="13"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="50" name="/U1_R5">
+      <node ref="D5" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="51" name="/U1_G0">
+      <node ref="U1" pin="32"/>
+      <node ref="D6" pin="3"/>
+    </net>
+    <net code="52" name="/U1_B5">
+      <node ref="D5" pin="4"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="53" name="/U1_R6">
+      <node ref="D8" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="54" name="/U1_G6">
+      <node ref="U1" pin="16"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="55" name="/U1_B6">
+      <node ref="U1" pin="14"/>
+      <node ref="D8" pin="4"/>
+    </net>
+    <net code="56" name="/U1_R7">
+      <node ref="D9" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="58" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="59" name="/U2_G2">
+      <node ref="U2" pin="38"/>
+      <node ref="D12" pin="3"/>
+    </net>
+    <net code="60" name="/U2_G0">
+      <node ref="D17" pin="3"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="61" name="/U2_B0">
+      <node ref="U2" pin="34"/>
+      <node ref="D17" pin="4"/>
+    </net>
+    <net code="62" name="/U2_B2">
+      <node ref="U2" pin="40"/>
+      <node ref="D12" pin="4"/>
+    </net>
+    <net code="63" name="/U2_R3">
+      <node ref="D15" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="64" name="/U2_G3">
+      <node ref="D15" pin="3"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="65" name="/U2_B3">
+      <node ref="U2" pin="3"/>
+      <node ref="D15" pin="4"/>
+    </net>
+    <net code="66" name="/U2_B1">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="67" name="/U2_R2">
+      <node ref="U2" pin="39"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+  </nets>
+</export>
