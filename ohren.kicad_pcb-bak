@@ -1728,10 +1728,10 @@
   )
 
   (gr_line (start 140 113.3) (end 140 71.28) (layer Eco2.User) (width 0.15))
-  (gr_text "PCB by\nTobias Schramm\n@Toble_Miner 2019" (at 128.43 105.42) (layer B.SilkS) (tstamp 5CAF8158)
+  (gr_text "PCB by\nTobias Schramm\n@Toble_Miner 2019" (at 128.43 104.76) (layer B.SilkS) (tstamp 5CAF8158)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Nekomimi\nby BenBE\nRev B" (at 152.24 105.42) (layer B.SilkS) (tstamp 5CAF8155)
+  (gr_text "Nekomimi\nby BenBE\nRev B" (at 152.24 104.76) (layer B.SilkS) (tstamp 5CAF8155)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_arc (start 197.105766 177.067073) (end 139.987752 87.320593) (angle -22.49237648) (layer Edge.Cuts) (width 0.05) (tstamp 5CAF812B))
