@@ -955,17 +955,6 @@ Text Label 10000 5300 0    50   ~ 0
 U2_G6
 Text Label 10000 5500 0    50   ~ 0
 U2_B6
-$Comp
-L LED:ASMB-MTB1-0A3A2 D17
-U 1 1 5CA31DD4
-P 9350 3400
-F 0 "D17" H 9350 3897 50  0000 C CNN
-F 1 "LED_ARGB" H 9350 3806 50  0000 C CNN
-F 2 "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW" H 9350 3350 50  0001 C CNN
-F 3 "~" H 9350 3350 50  0001 C CNN
-	1    9350 3400
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	9900 6050 10000 5950
 Entry Wire Line
@@ -1513,7 +1502,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4450 5750 4450
 Wire Wire Line
-	1300 1200 1900 1200
+	1300 1200 1600 1200
 Text Label 3700 1750 1    50   ~ 0
 U1_G4
 Wire Wire Line
@@ -1538,17 +1527,6 @@ Text Label 2500 1750 1    50   ~ 0
 U2_R1
 Wire Wire Line
 	2500 1500 2500 1750
-$Comp
-L Connector:Conn_01x18_Male J1
-U 1 1 5CDF8D04
-P 550 2200
-F 0 "J1" V 385 2128 50  0000 C CNN
-F 1 "Conn_01x18_Male" V 476 2128 50  0000 C CNN
-F 2 "catear-pcb:solder_conn18" H 550 2200 50  0001 C CNN
-F 3 "~" H 550 2200 50  0001 C CNN
-	1    550  2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	-350 2400 -350 2550
 Wire Wire Line
@@ -1574,7 +1552,7 @@ $EndComp
 Wire Wire Line
 	1800 2550 1800 2250
 Wire Wire Line
-	1800 2550 1350 2550
+	1800 2550 1650 2550
 Wire Wire Line
 	1250 2550 1250 2400
 Wire Wire Line
@@ -1637,8 +1615,6 @@ Wire Wire Line
 	1150 2400 1150 2750
 Wire Wire Line
 	1050 2400 1050 2750
-Wire Wire Line
-	2000 2650 950  2650
 Wire Wire Line
 	950  2650 950  2400
 Wire Wire Line
@@ -1716,6 +1692,69 @@ Wire Wire Line
 	4550 1300 4250 1300
 Connection ~ 4550 1000
 Connection ~ 4550 1300
+$Comp
+L Connector_Generic_MountingPin:Conn_01x19_MountingPin J1
+U 1 1 5CBA6D41
+P 550 2200
+F 0 "J1" V 775 2118 50  0000 C CNN
+F 1 "Conn_01x19_MountingPin" V 684 2118 50  0000 C CNN
+F 2 "catear-pcb:Molex_Easy-On_54550-1971_1x19_P0.5mm_Horizontal" H 550 2200 50  0001 C CNN
+F 3 "~" H 550 2200 50  0001 C CNN
+	1    550  2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CBB1488
+P 1600 1350
+F 0 "D2" V 1639 1233 50  0000 R CNN
+F 1 "LED" V 1548 1233 50  0000 R CNN
+F 2 "catear-pcb:smd_led_universal" H 1600 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1600 1350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1600 1200
+Wire Wire Line
+	1600 1200 1900 1200
+$Comp
+L Device:LED D1
+U 1 1 5CBB1D47
+P 1300 1350
+F 0 "D1" V 1339 1233 50  0000 R CNN
+F 1 "LED" V 1248 1233 50  0000 R CNN
+F 2 "catear-pcb:smd_led_universal" H 1300 1350 50  0001 C CNN
+F 3 "~" H 1300 1350 50  0001 C CNN
+	1    1300 1350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1300 1200
+$Comp
+L LED:ASMB-MTB1-0A3A2 D3
+U 1 1 5CBB4B97
+P 5950 3400
+F 0 "D3" H 5950 3897 50  0000 C CNN
+F 1 "LED_ARGB" H 5950 3806 50  0000 C CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW" H 5950 3350 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:ASMB-MTB1-0A3A2 D13
+U 1 1 5CBB539C
+P 9350 4250
+F 0 "D13" H 9350 4747 50  0000 C CNN
+F 1 "LED_ARGB" H 9350 4656 50  0000 C CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW" H 9350 4200 50  0001 C CNN
+F 3 "~" H 9350 4200 50  0001 C CNN
+	1    9350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2650 2000 2650
+Wire Wire Line
+	1650 2550 1650 2200
 Wire Bus Line
 	5400 2750 5400 4550
 Wire Bus Line
@@ -1736,4 +1775,7 @@ Wire Bus Line
 	8800 4950 8800 6500
 Wire Bus Line
 	2350 3050 2350 6850
+Connection ~ 1650 2550
+Wire Wire Line
+	1650 2550 1350 2550
 $EndSCHEMATC
