@@ -2002,7 +2002,7 @@
     (arrow2a (pts (xy 177.14 111.11) (xy 177.726421 109.983496)))
     (arrow2b (pts (xy 177.14 111.11) (xy 176.553579 109.983496)))
   )
-  (gr_text 2019 (at 129.14 110.25 45) (layer F.SilkS)
+  (gr_text 2019 (at 128.645 110.57 45) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Rev C" (at 150.89 110.95) (layer F.SilkS)
