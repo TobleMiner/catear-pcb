@@ -1462,7 +1462,7 @@ U1_G4
 Wire Wire Line
 	3700 1500 3700 1750
 Text Label 4000 1750 1    50   ~ 0
-U1_B4
+U1_R4
 Wire Wire Line
 	4000 1500 4000 1750
 Text Label 3400 1750 1    50   ~ 0
