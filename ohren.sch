@@ -1542,8 +1542,6 @@ F 3 "" H 1900 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1900 2850 1900 2750
-Wire Wire Line
-	1900 2750 1700 2750
 Connection ~ 1250 2750
 Wire Wire Line
 	1250 2750 1150 2750
@@ -1595,7 +1593,7 @@ U 1 1 5CBA6D41
 P 550 2200
 F 0 "J1" V 775 2118 50  0000 C CNN
 F 1 "Conn_01x19_MountingPin" V 684 2118 50  0000 C CNN
-F 2 "catear-pcb:Molex_Easy-On_54550-1971_1x19_P0.5mm_Horizontal" H 550 2200 50  0001 C CNN
+F 2 "catear-pcb:Molex_Easy-On_52746-1971_1x19_P0.5mm_Horizontal" H 550 2200 50  0001 C CNN
 F 3 "~" H 550 2200 50  0001 C CNN
 	1    550  2200
 	0    -1   -1   0   
@@ -1681,29 +1679,28 @@ Wire Wire Line
 Wire Wire Line
 	750  3350 750  2400
 Wire Wire Line
-	1450 2550 1800 2550
+	1450 2550 1700 2550
 Wire Wire Line
 	1650 2200 1700 2200
-Wire Wire Line
-	1700 2200 1700 2750
-Connection ~ 1700 2750
-Wire Wire Line
-	1700 2750 1250 2750
 Wire Wire Line
 	4250 1000 4850 1000
 Wire Wire Line
 	4250 1300 4850 1300
 $Comp
 L Device:C C6
-U 0 0 5D11A988
+U 1 1 5D11A988
 P 5150 1150
 F 0 "C6" H 5265 1196 50  0000 L CNN
 F 1 "C" H 5265 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 5188 1000 50  0001 C CNN
 F 3 "~" H 5150 1150 50  0001 C CNN
-	0    5150 1150
+	1    5150 1150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1250 2750 1900 2750
+Wire Wire Line
+	1700 2200 1700 2550
 Wire Bus Line
 	5400 2750 5400 4550
 Wire Bus Line
@@ -1724,4 +1721,7 @@ Wire Bus Line
 	8800 4950 8800 6500
 Wire Bus Line
 	2350 3050 2350 6850
+Connection ~ 1700 2550
+Wire Wire Line
+	1700 2550 1800 2550
 $EndSCHEMATC

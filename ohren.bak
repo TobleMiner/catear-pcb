@@ -1462,7 +1462,7 @@ U1_G4
 Wire Wire Line
 	3700 1500 3700 1750
 Text Label 4000 1750 1    50   ~ 0
-U1_B4
+U1_R4
 Wire Wire Line
 	4000 1500 4000 1750
 Text Label 3400 1750 1    50   ~ 0
@@ -1595,7 +1595,7 @@ U 1 1 5CBA6D41
 P 550 2200
 F 0 "J1" V 775 2118 50  0000 C CNN
 F 1 "Conn_01x19_MountingPin" V 684 2118 50  0000 C CNN
-F 2 "catear-pcb:Molex_Easy-On_54550-1971_1x19_P0.5mm_Horizontal" H 550 2200 50  0001 C CNN
+F 2 "catear-pcb:Molex_Easy-On_52746-1971_1x19_P0.5mm_Horizontal" H 550 2200 50  0001 C CNN
 F 3 "~" H 550 2200 50  0001 C CNN
 	1    550  2200
 	0    -1   -1   0   
@@ -1695,13 +1695,13 @@ Wire Wire Line
 	4250 1300 4850 1300
 $Comp
 L Device:C C6
-U 0 0 5D11A988
+U 1 1 5D11A988
 P 5150 1150
 F 0 "C6" H 5265 1196 50  0000 L CNN
 F 1 "C" H 5265 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 5188 1000 50  0001 C CNN
 F 3 "~" H 5150 1150 50  0001 C CNN
-	0    5150 1150
+	1    5150 1150
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
