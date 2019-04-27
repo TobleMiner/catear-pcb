@@ -1697,7 +1697,7 @@
     (tags "QFN NoLead")
     (path /5C994A8A)
     (attr smd)
-    (fp_text reference U1 (at 3.7 -3.32 315) (layer F.SilkS)
+    (fp_text reference U1 (at 2.358201 -4.246176 315) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TLC5951RHA (at 0 4.32 315) (layer F.Fab)
@@ -1966,7 +1966,7 @@
     )
   )
 
-  (gr_text 2019 (at 129.03 110.06 45) (layer F.SilkS)
+  (gr_text 2019 (at 129.14 110.25 45) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Rev C" (at 150.89 110.95) (layer F.SilkS)
