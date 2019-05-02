@@ -1475,7 +1475,7 @@
     )
   )
 
-  (gr_poly (pts (xy 137.25 99.25) (xy 142.75 99.25) (xy 142.75 104.75) (xy 137.25 104.75)) (layer B.Mask) (width 0.1))
+  (gr_poly (pts (xy 137 99) (xy 143 99) (xy 143 105) (xy 137 105)) (layer B.Mask) (width 0.1))
   (gr_text Schramm (at 135.45 106.02) (layer F.SilkS) (tstamp 5CCC341B)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
