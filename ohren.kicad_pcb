@@ -223,10 +223,10 @@
     (add_net VDD)
   )
 
-  (module catear-pcb:TestPoint_0.5x1mm (layer F.Cu) (tedit 5CCC41D0) (tstamp 5CCCA4F1)
+  (module catear-pcb:TestPoint_0.5x1mm (layer F.Cu) (tedit 5CCC41D0) (tstamp 5CCCBDF1)
     (at 143 96 135)
     (path /5CCD2D62)
-    (fp_text reference TP1 (at 2.25 0.15 135) (layer F.SilkS)
+    (fp_text reference TP1 (at 0.388909 -1.52028 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TestPoint (at 0 -1.2 135) (layer F.Fab)
@@ -3912,7 +3912,7 @@
   (module catear-pcb:smd_led_universal (layer F.Cu) (tedit 5C9CD47B) (tstamp 5C9D6092)
     (at 143.71 93.1782 50)
     (path /5CAC5B7C)
-    (fp_text reference D23 (at -3.000416 1.016429 140) (layer F.SilkS)
+    (fp_text reference D23 (at -3.808023 1.485227 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 0 -2.75 50) (layer F.Fab)
