@@ -1432,7 +1432,7 @@ U 1 1 5CCD2D62
 P 8400 10100
 F 0 "TP1" H 8458 10218 50  0000 L CNN
 F 1 "TestPoint" H 8458 10127 50  0000 L CNN
-F 2 "catear-pcb:TestPoint_0,5x1mm" H 8600 10100 50  0001 C CNN
+F 2 "catear-pcb:TestPoint_0.5x1mm" H 8600 10100 50  0001 C CNN
 F 3 "~" H 8600 10100 50  0001 C CNN
 	1    8400 10100
 	1    0    0    -1  

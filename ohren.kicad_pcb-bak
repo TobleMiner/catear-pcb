@@ -3912,7 +3912,7 @@
   (module catear-pcb:smd_led_universal (layer F.Cu) (tedit 5C9CD47B) (tstamp 5C9D6092)
     (at 143.71 93.1782 50)
     (path /5CAC5B7C)
-    (fp_text reference D23 (at -3.000416 1.016429 140) (layer F.SilkS)
+    (fp_text reference D23 (at -3.808023 1.485227 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 0 -2.75 50) (layer F.Fab)
