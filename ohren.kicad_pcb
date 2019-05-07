@@ -3795,6 +3795,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5CB837DF)
@@ -3837,6 +3842,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -4078,6 +4088,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C994CF0)
@@ -4120,6 +4135,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -4164,6 +4184,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C9933F6)
@@ -4206,6 +4231,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -4250,6 +4280,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C99148F)
@@ -4292,6 +4327,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -4336,6 +4376,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C991463)
@@ -4378,6 +4423,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -4422,6 +4472,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C991437)
@@ -4465,6 +4520,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW (layer F.Cu) (tedit 59D415EA) (tstamp 5C991744)
@@ -4507,6 +4567,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3rdparty/3d/ASMB-MTB0-0A3A2.step
+      (offset (xyz 0.6 0.95 0))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz -90 0 -90))
     )
   )
 
