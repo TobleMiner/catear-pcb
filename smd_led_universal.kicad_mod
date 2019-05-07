@@ -1,4 +1,4 @@
-(module LED_universal_2mm (layer F.Cu) (tedit 5C9CD47B)
+(module smd_led_universal (layer F.Cu) (tedit 5CD17766)
   (fp_text reference REF** (at 3.25 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,4 +15,9 @@
   (fp_line (start -1.75 -1.25) (end -2.25 -1.25) (layer F.SilkS) (width 0.12))
   (pad 2 smd roundrect (at 1.075 0) (size 1.75 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -1.125 0) (size 1.75 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_1206_3216Metric_Castellated.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
