@@ -4518,7 +4518,7 @@
   (gr_text 2019 (at 130.41 107.51) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Rev D" (at 140 110.68) (layer F.SilkS)
+  (gr_text "Rev E" (at 140 110.68) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text Tobias (at 135.44 104.81) (layer F.SilkS) (tstamp 5CC7A9AB)
