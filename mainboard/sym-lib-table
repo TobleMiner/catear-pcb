@@ -4,4 +4,5 @@
   (lib (name vbat)(type Legacy)(uri ${KIPRJMOD}/vbat.lib)(options "")(descr ""))
   (lib (name pmv32up)(type Legacy)(uri ${KIPRJMOD}/pmv32up.lib)(options "")(descr ""))
   (lib (name irlml6246)(type Legacy)(uri ${KIPRJMOD}/irlml6246.lib)(options "")(descr ""))
+  (lib (name BH1750)(type Legacy)(uri ${KIPRJMOD}/BH1750.lib)(options "")(descr ""))
 )
