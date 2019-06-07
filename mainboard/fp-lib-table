@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name tps63070)(type KiCad)(uri ${KIPRJMOD}/tps63070.pretty)(options "")(descr ""))
-  (lib (name mainboard)(type KiCad)(uri /home/tsys/work/catear-pcb/mainboard)(options "")(descr ""))
+  (lib (name mainboard)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
 )
