@@ -5,4 +5,6 @@
   (lib (name pmv32up)(type Legacy)(uri ${KIPRJMOD}/pmv32up.lib)(options "")(descr ""))
   (lib (name irlml6246)(type Legacy)(uri ${KIPRJMOD}/irlml6246.lib)(options "")(descr ""))
   (lib (name BH1750)(type Legacy)(uri ${KIPRJMOD}/BH1750.lib)(options "")(descr ""))
+  (lib (name ADXL343)(type Legacy)(uri ${KIPRJMOD}/ADXL343.lib)(options "")(descr ""))
+  (lib (name LIS3MDL)(type Legacy)(uri ${KIPRJMOD}/LIS3MDL.lib)(options "")(descr ""))
 )
