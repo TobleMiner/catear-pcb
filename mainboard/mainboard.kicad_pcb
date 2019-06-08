@@ -587,7 +587,7 @@
     (tags resistor)
     (path /5EA7E785)
     (attr smd)
-    (fp_text reference R29 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R29 (at 2.49 0.08 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "220 R" (at 0 1.65) (layer F.Fab)
