@@ -2993,17 +2993,6 @@ Wire Wire Line
 	14450 4750 14550 4750
 Wire Wire Line
 	14550 4750 14550 4600
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5DFAE882
-P 13750 4750
-F 0 "J4" H 13858 4931 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 13858 4840 50  0000 C CNN
-F 2 "mainboard:XT30PW" H 13750 4750 50  0001 C CNN
-F 3 "~" H 13750 4750 50  0001 C CNN
-	1    13750 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13950 4750 14150 4750
 $Comp
@@ -3020,7 +3009,7 @@ $EndComp
 Wire Wire Line
 	14550 5050 14550 4850
 Wire Wire Line
-	14550 4850 13950 4850
+	14550 4850 14000 4850
 Wire Notes Line
 	13450 3900 13450 5300
 Wire Notes Line
@@ -3390,10 +3379,6 @@ Wire Wire Line
 Connection ~ 9150 11750
 Wire Wire Line
 	8800 9500 8800 9100
-Wire Bus Line
-	8350 2150 8350 2500
-Wire Bus Line
-	9350 2500 9350 2750
 Connection ~ 8800 9100
 Wire Wire Line
 	8800 9100 8200 9100
@@ -3419,4 +3404,28 @@ F 3 "~" H 17800 4850 50  0001 C CNN
 	1    17800 4850
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
+U 1 1 5F516B43
+P 13750 4750
+F 0 "J?" H 13672 4967 50  0000 C CNN
+F 1 "Conn_01x02_MountingPin" H 13672 4876 50  0000 C CNN
+F 2 "mainboard:XT30PW" H 13750 4750 50  0001 C CNN
+F 3 "~" H 13750 4750 50  0001 C CNN
+	1    13750 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 5050 13750 5100
+Wire Wire Line
+	13750 5100 14000 5100
+Wire Wire Line
+	14000 5100 14000 4850
+Wire Bus Line
+	8350 2150 8350 2500
+Wire Bus Line
+	9350 2500 9350 2750
+Connection ~ 14000 4850
+Wire Wire Line
+	14000 4850 13950 4850
 $EndSCHEMATC
