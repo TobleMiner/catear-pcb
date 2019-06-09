@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 40)
+    (drawings 41)
     (tracks 1223)
     (zones 0)
     (modules 107)
@@ -4664,6 +4664,9 @@
     )
   )
 
+  (gr_text "Rev A" (at 91 122 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Tobias\nSchramm\n2019" (at 89.35 117.3 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
