@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 292)
+    (drawings 293)
     (tracks 4952)
     (zones 0)
     (modules 432)
@@ -16623,6 +16623,9 @@
     )
   )
 
+  (gr_text "Nekomimi Control-Board Panel Rev A" (at 69 128.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 31.425 53.64) (end 33.5 53.64) (layer Edge.Cuts) (width 0.05) (tstamp 5D08C6FC))
   (gr_line (start 79.7 55.8) (end 79.2 55.8) (layer Edge.Cuts) (width 0.05) (tstamp 5D08C6F6))
   (gr_line (start 28.99 54.14) (end 28.99 55.8) (layer Edge.Cuts) (width 0.05) (tstamp 5D08C6C6))
