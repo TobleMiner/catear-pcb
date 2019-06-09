@@ -5,7 +5,7 @@
     (drawings 292)
     (tracks 4952)
     (zones 0)
-    (modules 428)
+    (modules 432)
     (nets 95)
   )
 
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.127)
     (user_trace_width 0.127)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
@@ -297,6 +297,58 @@
     (add_net VCC_EAR1)
     (add_net VDC)
     (add_net VUSB)
+  )
+
+  (module mainboard:Allignment_Hole (layer F.Cu) (tedit 5CFCFD56) (tstamp 5CFD531D)
+    (at 118.5 128.5)
+    (fp_text reference REF** (at 0 3.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Allignment_Hole (at 0 -3.25) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Paste *.Mask))
+  )
+
+  (module mainboard:Allignment_Hole (layer F.Cu) (tedit 5CFCFD56) (tstamp 5CFD5156)
+    (at 21.5 128.5)
+    (fp_text reference REF** (at 0 3.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Allignment_Hole (at 0 -3.25) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Paste *.Mask))
+  )
+
+  (module mainboard:Allignment_Hole (layer F.Cu) (tedit 5CFCFD56) (tstamp 5CFD5113)
+    (at 21.5 21.5)
+    (fp_text reference REF** (at 0 3.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Allignment_Hole (at 0 -3.25) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Paste *.Mask))
+  )
+
+  (module mainboard:Allignment_Hole (layer F.Cu) (tedit 5CFCFD56) (tstamp 5CFD5092)
+    (at 118.5 21.5)
+    (fp_text reference REF** (at 0 3.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Allignment_Hole (at 0 -3.25) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Paste *.Mask))
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5D08C736)
