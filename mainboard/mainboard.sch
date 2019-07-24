@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:ESP32-WROOM-32 U8
+L esp32-wroom-32_gnd_pad:ESP32-WROOM-32 U8
 U 1 1 5CF907D7
 P 11600 6550
 F 0 "U8" H 11200 7900 50  0000 C CNN
@@ -3442,11 +3442,11 @@ Wire Wire Line
 	10950 5350 10750 5350
 Wire Wire Line
 	10950 4900 10950 4750
+Connection ~ 10950 4750
+Wire Wire Line
+	10950 4750 10450 4750
 Wire Bus Line
 	8350 2150 8350 2500
 Wire Bus Line
 	9350 2500 9350 2750
-Connection ~ 10950 4750
-Wire Wire Line
-	10950 4750 10450 4750
 $EndSCHEMATC

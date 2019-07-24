@@ -7,4 +7,5 @@
   (lib (name BH1750)(type Legacy)(uri ${KIPRJMOD}/BH1750.lib)(options "")(descr ""))
   (lib (name ADXL343)(type Legacy)(uri ${KIPRJMOD}/ADXL343.lib)(options "")(descr ""))
   (lib (name LIS3MDL)(type Legacy)(uri ${KIPRJMOD}/LIS3MDL.lib)(options "")(descr ""))
+  (lib (name esp32-wroom-32_gnd_pad)(type Legacy)(uri ${KIPRJMOD}/esp32-wroom-32_gnd_pad.lib)(options "")(descr ""))
 )
