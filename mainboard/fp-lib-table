@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name tps63070)(type KiCad)(uri ${KIPRJMOD}/tps63070.pretty)(options "")(descr ""))
   (lib (name mainboard)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name sph064x)(type KiCad)(uri ${KIPRJMOD}/sph064x.pretty)(options "")(descr ""))
 )
