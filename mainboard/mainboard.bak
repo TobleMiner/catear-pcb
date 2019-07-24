@@ -1498,9 +1498,9 @@ Wire Wire Line
 	12200 5450 12600 5450
 Wire Wire Line
 	12200 5650 12600 5650
-Text Label 12600 5650 2    50   ~ 0
-TXD
 Text Label 12600 5450 2    50   ~ 0
+TXD
+Text Label 12600 5650 2    50   ~ 0
 RXD
 $Comp
 L Device:R R17
