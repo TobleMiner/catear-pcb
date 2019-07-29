@@ -9,4 +9,5 @@
   (lib (name LIS3MDL)(type Legacy)(uri ${KIPRJMOD}/LIS3MDL.lib)(options "")(descr ""))
   (lib (name esp32-wroom-32_gnd_pad)(type Legacy)(uri ${KIPRJMOD}/esp32-wroom-32_gnd_pad.lib)(options "")(descr ""))
   (lib (name sph064x)(type Legacy)(uri ${KIPRJMOD}/sph064x.lib)(options "")(descr ""))
+  (lib (name MC6470)(type Legacy)(uri ${KIPRJMOD}/MC6470.lib)(options "")(descr ""))
 )
